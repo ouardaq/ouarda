@@ -12,7 +12,7 @@ export const skillCategories: SkillCategory[] = [
       'Research',
       'Machine Learning',
       'Database Systems',
-      'Vector Databases'
+     
     ]
   },
   {
@@ -20,11 +20,8 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       'C',
       'C++',
-      
       'Java',
       'Python',
-      
-      
       'SQL',
       'HTML/CSS',
       'JavaScript',
@@ -50,19 +47,11 @@ export const skillCategories: SkillCategory[] = [
       'OCI',
       'Oracle Apex',
       'Linux',
-      'Vim',
-      'gdb',
-      'AWS',
-      'Maplesoft Maple',
-      'Matlab',
       'Git/Version Control',
       'IoT',
       'LaTeX',
       'Business Intelligence',
-      'Microsoft Office',
-      'Adobe Suite',
-      'CINEMA 4D',
-      'Blender'
+      'Microsoft Office'
     ]
   },
   {

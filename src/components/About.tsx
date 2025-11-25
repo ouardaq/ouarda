@@ -16,7 +16,8 @@ export default function About() {
             the freedom to build and explore new worlds—interactive entertainment captures my imagination like nothing else.
             </p>
         <p className="mb-4">
-          Beyond code and games, ...
+          I have my eyes on the stars.
+          I am an avid enthusiast of space science, fascinated by everything from astrophysics to the mysteries of the cosmos
         </p>
         <p className="mb-4">
           <span className="dark:text-yellow-400 text-yellow-700 font-mono rounded">
@@ -27,3 +28,4 @@ export default function About() {
     </section>
   );
 }
+

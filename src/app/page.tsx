@@ -20,7 +20,9 @@ export default function Home() {
         />
     
         <p className="max-w-2xl text-lg">
-        {`A recent Master's graduate and a versatile software developer with a passion for building and coding . Driven by my love for learning-whether its a programming language or a human language- i am always passionate about my .. I am also a space enthusiast and an avid gamer .`}
+        {`I am a versatile Software Developer and recent Master's graduate with a passion for building and coding. 
+        I am driven by a love for learning—whether it’s a new programming syntax or a human language. 
+        I'm rarely away from the keyboard; if I'm not compiling code, I am probably gaming.`}
         </p>
       </section>
       
