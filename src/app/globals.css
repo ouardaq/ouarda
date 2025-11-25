@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+:root {
+    /* "Gruvbox" Inspired */
+  --bg: #282828;
+    --surface: #3c3836;
+    --border: #504945;
+    --text: #ebdbb2;     /* The iconic "cream" text */
+    --accent: #fe8019;
+}
+
+body {
+    color: var(--text);
+    background: var(--bg);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+@layer components {
+    .section-title {
+        @apply text-xl font-normal mb-6;
+        color: var(--accent);
+    }
+
+    .card {
+        @apply border p-6 mb-6 transition-all hover:shadow-md;
+        border-color: var(--border);
+        background-color: var(--surface);
+    }
+
+    .badge {
+        @apply text-xs py-1 px-2 mr-2 mb-2 inline-block border;
+        background-color: var(--surface);
+        border-color: var(--border);
+    }
+
+    .terminal-prompt::before {
+        content: "$ ";
+        color: var(--accent);
+    }
+}
+
+.math-formula-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 0.5rem 0;
+}
+
+.math-formula-wrapper {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.math-formula-wrapper .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5rem 0;
+}
+
+.math-formula-wrapper .katex-display::-webkit-scrollbar {
+    height: 6px;
+}
+
+.math-formula-wrapper .katex-display::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.code-block-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
