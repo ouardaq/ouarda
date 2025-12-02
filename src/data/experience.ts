@@ -8,6 +8,18 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    title: 'Integration Developer',
+    company: 'Lysi',
+    location: 'In-office @ Rabat, Morocco',
+    period: 'Since December 2025',
+    description: [
+      'Supporting the team in troubleshooting integration errors and performing data mapping tasks within the Celigo platform',
+      
+      'Collaborated with cross-functional teams to ensure seamless data flow between systems',
+      'Celigo certified Integration Developer'  
+    ]
+  },
+  {
     title: 'Integration Developer Intern',
     company: 'Lysi',
     location: 'In-office @ Rabat, Morocco',
@@ -16,8 +28,7 @@ export const experiences: Experience[] = [
       'Supporting the team in troubleshooting integration errors and performing data mapping tasks within the Celigo platform',
       'Developed an understanding of API-led connectivity',
       'Gained hands-on experience with integration tools and technologies',
-      'Collaborated with cross-functional teams to ensure seamless data flow between systems',
-      'Celigo certified Integration Developer'  
+      'Collaborated with cross-functional teams to ensure seamless data flow between systems' 
     ]
   },
   {
@@ -26,7 +37,7 @@ export const experiences: Experience[] = [
     location: 'In-office @ Oujda, Morocco',
     period: 'February 2022 - June 2022',
     description: [
-      'Developped an App with OCR technology using Windev',
+      'Developped an App with OCR technology using Windev to automate the extraction of data from car plates',
       'Automated administrative tasks to improve efficiency'
       
     ]
@@ -38,7 +49,9 @@ export const experiences: Experience[] = [
     location: 'In-office @ Oujda, Morocco',
     period: 'Februray 2021 - January 2022',
     description: [
-      'Troubleshot hardware and software issues on employee workstations.'
+      'Troubleshot hardware and software issues on employee workstations.',
+      'Provided technical support to staff and assisted with network maintenance tasks.',
+      'Gained practical experience in IT support and system administration.'
 
       
     ]
@@ -50,7 +63,8 @@ export const experiences: Experience[] = [
     period: 'May 2020 - July 2020',
     description: [
       'Developed a web application to manage hospital eployees using HTML, CSS, JavaScript, and Laravel.',
-      'Improved data management and accessibility for hospital staff.'
+      'Improved data management and accessibility for hospital staff.',
+      'Gained experience in full-stack web development.'
       
     ]
   },
@@ -61,7 +75,8 @@ export const experiences: Experience[] = [
     period: 'July 2019 - August 2019',
     description: [
       'Assisted in conducting vulnerability assessments and penetration testing on client systems.',
-      'Gained hands-on experience with various cybersecurity tools and techniques.'
+      'Gained hands-on experience with various cybersecurity tools and techniques.',
+      'Learned about best practices for securing networks and systems.'
       
     ]
   },

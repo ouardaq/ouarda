@@ -19,8 +19,7 @@ export default function Contact() {
             {/* Uses global .section-title class for styling and accent color */}
             <h2 className="section-title">Get in touch</h2>
             <p className="mb-4 text-[var(--text)]">
-              I'm always open to discuss research opportunities, collaboration on projects, 
-              or just to chat about technology and computer science.
+              Let's connect. Whether you have a question, a project idea, or just want to say hi,
             </p>
           </div>
           
@@ -64,6 +63,7 @@ export default function Contact() {
                 >
                   LinkedIn
                 </a>
+                
               </div>
             </div>
           </div>

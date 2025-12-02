@@ -5,13 +5,12 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    category: 'Algorithm & Research',
+    category: 'Software Development Methodologies',
     skills: [
-      'Algorithm Design',
-      'Algorithm Development',
-      'Research',
-      'Machine Learning',
-      'Database Systems',
+      'Agile (Scrum & Kanban)',
+      'Jira',
+      'Trello',
+      'UML'
      
     ]
   },
@@ -22,11 +21,12 @@ export const skillCategories: SkillCategory[] = [
       'C++',
       'Java',
       'Python',
-      'SQL',
+      'SQL (MySQL)',
       'HTML/CSS',
       'JavaScript',
       'PHP',
-      'XML'
+      'TypeScript'
+      
     ]
   },
   {
@@ -44,13 +44,16 @@ export const skillCategories: SkillCategory[] = [
     category: 'Tools & Technologies',
     skills: [
       'OracleDB',
-      'OCI',
-      'Oracle Apex',
+      
+      'RESTful APIs',
+      'Postman',
+      
+      'Celigo Integrator.io',
       'Linux',
       'Git/Version Control',
       'IoT',
       'LaTeX',
-      'Business Intelligence',
+      'Power BI',
       'Microsoft Office'
     ]
   },
