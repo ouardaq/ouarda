@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
     title: 'Integration Developer Intern',
     company: 'Lysi',
     location: 'In-office @ Rabat, Morocco',
-    period: 'Since August 2025',
+    period: 'August 2025 - November 2025',
     description: [
       'Supporting the team in troubleshooting integration errors and performing data mapping tasks within the Celigo platform',
       'Developed an understanding of API-led connectivity',
