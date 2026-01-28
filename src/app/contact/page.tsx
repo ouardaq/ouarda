@@ -56,7 +56,7 @@ export default function Contact() {
                   GitHub
                 </a>
                 <a 
-                  href="https://linkedin.com/in/ouardaqerrouech/" 
+                  href="https://linkedin.com/in/ouardaq/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[var(--accent)] border-b border-[var(--accent)] pb-1 hover:opacity-70 transition-opacity"
