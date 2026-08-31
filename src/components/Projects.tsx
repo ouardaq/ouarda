@@ -9,7 +9,8 @@ export default function Projects() {
       <Terminal text="projects" className="section-title" />
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {projects.map((project, index) => (
+        {/* Home page shows a selection; /projects has the full list */}
+        {projects.slice(0, 4).map((project, index) => (
           // Added h-full to make cards equal height in the grid
           <div key={index} className="card flex flex-col h-full">
             
